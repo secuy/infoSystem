@@ -1,0 +1,172 @@
+.body {
+    position: relative;
+    width: 1300px;
+    margin: 30px auto;
+}
+
+.body .bodyInfo {
+    box-sizing: border-box;
+    width: 900px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.body .bodyInfo .infoTitle {
+    margin: 40px 30px;
+    border-bottom: 3px solid #ccc;
+    font-size: 40px;
+}
+.body .bodyInfo .infoList {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.body .bodyInfo .infoList dl {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    height: 30px;
+}
+.body .bodyInfo .infoList dl dt,dd {
+    line-height: 30px;
+}
+.body .bodyInfo .infoList .listTitle {
+    display: block;
+    float: left;
+    width: 64px;
+    font-weight: 700;
+}
+.body .bodyInfo .infoList .listData {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    width: 350px;
+}
+/* 页面右部分 */
+.body .bodyRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 380px;
+}
+/* 搜索部分样式 */
+.body .bodySearch {
+    width: 370px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.body .bodySearch .searchInput{
+    margin: 20px 0;
+    height: 30px;
+}
+.body .bodySearch .searchInput #searchText {
+    float: left;
+    margin-left: 15px;
+    padding: 0 10px;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 28px;
+    width: 280px;
+    transition: 0.3s;
+}
+/* 搜索框被选中样式 */
+.TextBorderFocus {
+    border: 1px solid #ff6700;
+}
+/* 搜索框没有被选中样式 */
+.TextBorder {
+    border: 1px solid #ccc;
+}
+.TextBorder:hover {
+    border: 1px solid #666;
+    border-right: 0;
+}
+.body .bodySearch .searchInput #searchBtn {
+    float: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 28px;
+    width: 60px;
+    background-color: #ff6700;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.body .bodySearch .searchInput #searchBtn:hover {
+    background-color: #d65600;
+    color: #000;
+}
+
+.body .bodySearch .searchList {
+    /* 没有搜索时隐藏 */
+    /* display: none; */
+    border-top: 2px solid #ccc;
+}
+.body .bodySearch .searchList>ul>li {
+    display: block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+.body .bodySearch .searchList>h5 {
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+/* 定义统一公共样式：模块 */
+.body .model {
+    margin: 20px 20px;
+    margin-left: 0;
+}
+.body .modelTitleStyle {
+    position: relative;
+    margin: 20px 20px;
+    margin-left: 0;
+    background-image: url(../pic/paraTitle-line.png);
+}
+/* 定义统一公共样式：模块标题 */
+.body .modelTitle {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 20px;
+    border-left: 10px solid #ff6700;
+    height: 30px;
+    background-color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+}
+.body .modelDetail {
+    padding: 0 50px;
+}
+
+/* 相关话题样式 */
+.body .topicList {
+    color: #000;
+}
+.body .topicList .outerTopic {
+    display: inline-block;
+}
+.body .topicList .innerTopic {
+    display: none;
+    padding-left: 40px;
+}
+/* 相关话题箭头 */
+.beforeRotateArrow {
+    display: inline-block;
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+}
+.afterRotateArrow {
+    display: inline-block;
+    transform: rotate(0);
+    transition: all 0.3s;
+}
+
+/* 知识图谱样式 */
+
+.knowDiagram {
+    height: 1000px;
+}
