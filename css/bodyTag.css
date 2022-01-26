@@ -1,0 +1,17 @@
+/* 标签样式文件 */
+.bodyTag {
+    width: 270px;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-top: 0;
+    width: 270px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.bodyTag h3 {
+    border-bottom: 2px solid #bbb;
+}
+.tagPagePosition {
+    right: 0;
+    top: 0;
+}

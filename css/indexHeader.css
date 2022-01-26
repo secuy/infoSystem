@@ -1,0 +1,34 @@
+body {
+    background-color: #eee;
+}
+
+.header {
+    background-color: #ff694c;
+}
+.header .headerItems {
+    margin: 0 auto;
+    height: 40px;
+    width: 1200px;
+}
+.header .headerItems ul {
+    display: inline-block;
+}
+.header .headerItems ul>li {
+    box-sizing: border-box;
+    float: left;
+    vertical-align: top;
+    padding: 10px 20px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+.header .headerItems ul>li:hover {
+    background-color: #ad402a;
+}
+
+.header .headerImg img {
+    width: 100%;
+    vertical-align: top;
+}

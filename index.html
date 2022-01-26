@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/system.css">
+    <link rel="stylesheet" type="text/css" href="css/indexHeader.css">
+    <link rel="stylesheet" type="text/css" href="css/indexBody.css">
+    <link rel="stylesheet" type="text/css" href="css/bodyTag.css">
+    <link rel="stylesheet" type="text/css" href="css/indexFooter.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/knowledDiagram.js"></script>
+</head>
+<body>
+    <div class="header">
+        <!-- 头部 -->
+        <div class="headerItems">
+            <!-- 头部项目 -->
+            <ul>
+                <li>糖尿病</li>
+                <li>心脏病</li>
+                <li>高血压</li>
+                <li>肝硬化</li>
+                <li>心脑血管疾病</li>
+                <li>支气管炎</li>
+                <li>艾滋病</li>
+                <li>尿毒症</li>
+            </ul>
+        </div>
+        <div class="headerImg">
+            <!-- 头部图片展示 -->
+            <a href="#">
+                <img src="pic/糖尿病.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="body">
+        <!-- 主体部分 -->
+        <div class="bodyInfo">
+            <!-- 信息内容展示 -->
+            <div class="infoTitle">糖尿病</div>
+            <div class="infoList">
+                <!-- 基本信息列表 -->
+                <dl>
+                    <dt class="listTitle">英文名称</dt>
+                    <dd class="listData">diabetes mellitus，DM</dd>
+                    <dt class="listTitle">常见症状</dt>
+                    <dd class="listData">多饮、多尿、多食和体重减轻</dd>
+                </dl>
+                <dl>
+                    <dt class="listTitle">就诊科室</dt>
+                    <dd class="listData">内科，内分泌科</dd>
+                    <dt class="listTitle">传染性</dt>
+                    <dd class="listData">无</dd>
+                </dl>
+            </div>
+
+            <div class="model" id="relatedTopics">
+                <!-- 相关话题 -->
+                <div class="modelTitleStyle">
+                    <div class="modelTitle">相关话题</div>
+                </div>
+                <div class="modelDetail">
+                    <!-- 模块内容 -->
+                    <div class="topicList">
+                        <ul class="outerTopic" id="outerTopic">
+                            <li id="innerTopic1">
+                                <a href="javascript:void(0);">
+                                    <span class="iconfont iconarrow-down-bold beforeRotateArrow"></span>
+                                    相关理论
+                                </a>
+                                <ul class="innerTopic" id="inner1">
+                                    <li><a href="javascript:void(0);">糖尿病</a></li>
+                                    <li><a href="javascript:void(0);">糖</a></li>
+                                    <li><a href="javascript:void(0);">尿病</a></li>
+                                </ul>
+                            </li>
+                            <li id="innerTopic2">
+                                <a href="javascript:void(0);">
+                                    <span class="iconfont iconarrow-down-bold beforeRotateArrow"></span>
+                                    医学论文
+                                </a>
+                                <ul class="innerTopic" id="inner2">
+                                    <li><a href="javascript:void(0);">糖尿病</a></li>
+                                    <li><a href="javascript:void(0);">糖</a></li>
+                                    <li><a href="javascript:void(0);">尿病</a></li>
+                                </ul>
+                            </li>
+                            <li id="innerTopic3">
+                                <a href="javascript:void(0);">
+                                    <span class="iconfont iconarrow-down-bold beforeRotateArrow"></span>
+                                    相关帖子
+                                </a>
+                                <ul class="innerTopic" id="inner3">
+                                    <li><a href="javascript:void(0);">糖尿病</a></li>
+                                    <li><a href="javascript:void(0);">糖</a></li>
+                                    <li><a href="javascript:void(0);">尿病</a></li>
+                                </ul>
+                            </li>
+                            <li id="innerTopic4">
+                                <a href="javascript:void(0);">
+                                    <span class="iconfont iconarrow-down-bold beforeRotateArrow"></span>
+                                    网友博客
+                                </a>
+                                <ul class="innerTopic" id="inner4">
+                                    <li><a href="javascript:void(0);">糖尿病</a></li>
+                                    <li><a href="javascript:void(0);">糖</a></li>
+                                </ul>
+                            </li>
+                            <li id="innerTopic5">
+                                <a href="javascript:void(0);">
+                                    <span class="iconfont iconarrow-down-bold beforeRotateArrow"></span>
+                                    相关视频
+                                </a>
+                                <ul class="innerTopic" id="inner5">
+                                    <li><a href="javascript:void(0);">尿病</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="model" id="knowledDiagram">
+                <!-- 知识图谱模块 -->
+                <div class="modelTitleStyle">
+                    <div class="modelTitle">知识图谱</div>
+                </div>
+                <div class="modelDetail">
+                    <div class="knowDiagram" id="knowDiagram"></div>
+                </div>
+            </div>
+            <div class="model" id="model2">
+                <!-- 模块2 -->
+                <div class="modelTitleStyle">
+                    <div class="modelTitle">模块2</div>
+                </div>
+                <div class="modelDetail"></div>
+            </div>
+            <div class="model" id="model3">
+                <!-- 模块3 -->
+                <div class="modelTitleStyle">
+                    <div class="modelTitle">模块3</div>
+                </div>
+                <div class="modelDetail"></div>
+            </div>
+            <div class="model" id="model4">
+                <!-- 模块4 -->
+                <div class="modelTitleStyle">
+                    <div class="modelTitle">模块4</div>
+                </div>
+                <div class="modelDetail"></div>
+            </div>
+        </div>
+        <div class="bodyRight">
+            <!-- 主体右边部分 -->
+            <div class="bodyTag">
+                <h3>标签</h3>
+                <span class="label label-default">内分泌科</span>
+                <span class="label label-primary">糖尿病</span>
+                <span class="label label-success">内科</span>
+                <span class="label label-info">尿糖</span>
+                <span class="label label-warning">血糖</span>
+                <span class="label label-danger">血脂</span>
+            </div>
+            <div class="bodySearch">
+                <!-- 搜索部分 -->
+                <div class="searchInput">
+                    <!-- 搜索输入框 -->
+                    <input type="text" id="searchText" class="TextBorder">
+                    <input type="button" id="searchBtn" value="搜索">
+                </div>
+                <div class="searchList">
+                    <h5>搜索结果</h5>
+                    <!-- 搜索结果列表 -->
+                    <ul>
+                        <li><a href="#">hhhhhh</a></li>
+                        <li><a href="#">嘿嘿嘿和</a></li>
+                        <li><a href="#">啊啊啊啊打算</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">待定</div>
+
+</body>
+</html>

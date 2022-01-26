@@ -1,0 +1,102 @@
+body {
+    background-color: #eee;
+}
+
+.pageTop {
+    height: 100px;
+    background-color: #bbb;
+}
+
+/* 页面评价列表 */
+.evalList {
+    position: absolute;
+    top: 0;
+    margin: 0 20px;
+    width: 270px;
+}
+.highEvalList {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+.lowEvalList {
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+.evalList h5 {
+    margin: 10px 10px;
+    border-bottom: 2px solid #bbb;
+    font-weight: 700;
+}
+.evalList li .evalItem {
+    display: block;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+.evalList li .evalItem #evalItem_username {
+    border-bottom: 1px dotted #ccc;
+    font-weight: 700;
+}
+.evalList li .evalItem #evalItem_score {
+    font-weight: 700;
+    font-size: 12px;
+}
+.evalList li .evalItem #evalItem_time {
+    float: right;
+    color: #aaa;
+}
+
+/* 页面中间容器 */
+.pageMid {
+    position: relative;
+}
+/* 页面主体部分 */
+.pageBody {
+    width: 900px;
+    margin: 50px auto;
+    background-color: #aaafff;
+}
+/* pdf样式 */
+.pdfobject-container {
+    height: 1000px;
+    border: 1px solid #bbb;
+}
+
+/* 页面主体右部分 */
+.pageBodyRight {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+/* 用户评估模块 */
+.userEval {
+    padding: 20px;
+    width: 270px;
+    border-left: 5px solid #ff6700;
+    background-color: #fff;
+}
+.userEval label {
+    display: block;
+    margin-bottom: 0;
+}
+.userEval #evalScore,#evalText {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+.userEval #userEvalBtn {
+    height: 40px;
+    width: 80px;
+    background-color: #ff6700;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* 页面底部 */
+.pageFooter {
+    height: 100px;
+    background-color: #bbb;
+}

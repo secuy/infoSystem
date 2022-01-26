@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>essayPage</title>
+    <link rel="stylesheet" type="text/css" href="css/system.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/essayPage.css">
+    <link rel="stylesheet" type="text/css" href="css/bodyTag.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/essayPage.js"></script>
+    <script src="js/pdfobject.min.js"></script>
+</head>
+<body>
+    <div class="pageTop">待定</div>
+    <div class="pageMid">
+        <div class="evalList">
+            <!-- 评价列表区域 -->
+            <div class="highEvalList" id="highEvalList">
+                <h5>高分评价</h5>
+                <ul>
+                    <li>
+                        <div class="evalItem">
+                            <h6 id="evalItem_username">用户:刘龙</h6>
+                            <p id="evalItem_text">有用</p>
+                            <span id="evalItem_score">分数:86</span>
+                            <span id="evalItem_time">2021/12/20</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="evalItem">
+                            <h6 id="evalItem_username">用户:张三</h6>
+                            <p id="evalItem_text">好好好</p>
+                            <span id="evalItem_score">分数:96</span>
+                            <span id="evalItem_time">2021/12/31</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="evalItem">
+                            <h6 id="evalItem_username">用户:李四</h6>
+                            <p id="evalItem_text">非常棒</p>
+                            <span id="evalItem_score">分数:94</span>
+                            <span id="evalItem_time">2022/1/10</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="lowEvalList" id="lowEvalList">
+                <h5>低分评价</h5>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pageBody" id="pageEssay"></div>
+        <div class="pageBodyRight">
+            <div class="bodyTag tagPagePosition">
+                <h3>标签</h3>
+                <span class="label label-default">内分泌科</span>
+                <span class="label label-primary">糖尿病</span>
+                <span class="label label-success">内科</span>
+                <span class="label label-info">尿糖</span>
+                <span class="label label-warning">血糖</span>
+                <span class="label label-danger">血脂</span>
+            </div>
+            <div class="userEval">
+                <h4>请对本篇文章做出评价</h4>
+                <label for="evalScore">分数</label>
+                <input type="text" id="evalScore">
+                <label for="evalText">评价</label>
+                <input type="text" id="evalText">
+                <button id="userEvalBtn">提交</button>
+            </div>
+        </div>
+    </div>
+    <div class="pageFooter">待定</div>
+</body>
+</html>
